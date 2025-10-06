@@ -19,6 +19,7 @@ This project is an orchestration of an end-to-end data pipeline, starting from c
 ## 🏗️ Architecture
 
 graph LR
+
     A[Weather Stack API] --> B[Python Parser]
     
     B --> C[PostgreSQL]
