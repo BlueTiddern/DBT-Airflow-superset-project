@@ -1,0 +1,6 @@
+requests
+psycopg2-binary
+dbt-postgres
+SQLAlchemy
+python-dotenv
+pandas
