@@ -18,7 +18,6 @@ This project is an orchestration of an end-to-end data pipeline, starting from c
 
 ## 🏗️ Architecture
 
-```mermaid
 graph LR
     A[Weather Stack API] --> B[Python Parser]
     B --> C[PostgreSQL]
@@ -26,7 +25,6 @@ graph LR
     D --> E[PostgreSQL (Transformed)]
     E --> F[Apache Superset]
     A & B & C & D & E & F --> G[Apache Airflow]
-```
 
 ---
 
